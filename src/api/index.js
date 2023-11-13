@@ -1,15 +1,15 @@
+// IMPORTAÇÃO DO EXPRESS
 const express = require('express');
 
-const emojis = require('./emojis');
-
+//IMPORTAÇÃO PARA MANIPULAÇÃO DE ROTAS DO EXPRESS
 const router = express.Router();
 
+// ROTA DE GET  
 router.get('/', (req, res) => {
   res.json({
     message: 'API - 👋🌎🌍🌏',
   });
 });
 
-router.use('/emojis', emojis);
-
+// EXPORTAÇÃO DAS ROTAS
 module.exports = router;

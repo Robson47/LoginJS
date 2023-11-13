@@ -1,32 +1,28 @@
-# Express API Starter
+# LoginJS
 
-How to use this template:
-
-```sh
-npx create-express-api --directory my-api-name
-```
-
-Includes API Server utilities:
+Dependências de API:
 
 * [morgan](https://www.npmjs.com/package/morgan)
-  * HTTP request logger middleware for node.js
+  * Middleware para registrar solicitação HTTP para node.js
 * [helmet](https://www.npmjs.com/package/helmet)
-  * Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
+  * Ajuda com a segurança da API
 * [dotenv](https://www.npmjs.com/package/dotenv)
-  * Dotenv is a zero-dependency module that loads environment variables from a `.env` file into `process.env`
+  * Dotenv é um módulo de dependência zero que carrega variáveis ​​de ambiente de um arquivo `.env` em `process.env`
 * [cors](https://www.npmjs.com/package/cors)
-  * CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+  * CORS é um pacote node.js para fornecer um middleware Connect/Express que pode ser usado para habilitar o CORS com várias opções.
 
-Development utilities:
+Ferramentas de Desenvolvimento
 
 * [nodemon](https://www.npmjs.com/package/nodemon)
-  * nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+  * nodemon é uma ferramenta que ajuda a desenvolver aplicativos baseados em node.js, reiniciando automaticamente o aplicativo quando são detectadas alterações no arquivo.
 * [eslint](https://www.npmjs.com/package/eslint)
-  * ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+  * ESLint é uma ferramenta para identificar e relatar padrões encontrados em código ECMAScript/JavaScript.
 * [jest](https://www.npmjs.com/package/jest)
-  * Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+  * Jest é um framework de teste de JavaScript com foco na simplicidade.
 * [supertest](https://www.npmjs.com/package/supertest)
-  * HTTP assertions made easy via superagent.
+  * Asserções HTTP facilitadas por meio do superagente.
+* [express-api-starter](https://github.com/w3cj/express-api-starter)
+  * A basic starter for an express.js API
 
 ## Setup
 
