@@ -22,7 +22,7 @@ Ferramentas de Desenvolvimento
 * [supertest](https://www.npmjs.com/package/supertest)
   * Asserções HTTP facilitadas por meio do superagente.
 * [express-api-starter](https://github.com/w3cj/express-api-starter)
-  * A basic starter for an express.js API
+  * Um iniciador básico para uma API express.js
 
 ## Setup
 
